@@ -1,0 +1,343 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>  E-commerce</title>
+
+    <style>
+        *{margin: 0;
+        box-sizing: border-box;
+    padding: 0;}
+
+
+
+
+
+        header{position: relative; 
+            display: flex;
+            
+            background-color: rgb(237, 241, 232);
+        color:black ;
+        text-align: center;
+        align-items: center;
+        gap: 10px;
+        
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        width: 100%;
+        height: 15%;
+    }
+
+
+
+
+        header p{
+            position: absolute;
+            left: 100px;
+        }
+            
+        
+            
+            header img{
+                float:left;
+                background-color:none;
+                width: 90px;
+                height: 80px;
+            display:flex;
+
+            }
+
+
+
+
+
+          header nav{
+            position: absolute;
+            left: 500px;
+          }
+
+           
+           
+            
+
+             .About{ background-color: green;
+                color:white;
+                border-radius: 7px;
+               
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right: 10px;
+                padding-top: 10px;
+
+            }
+
+
+              
+            .banner{
+                position: relative;
+            }
+
+
+
+            .banner img{
+                width: 100%;
+                height: 40%;
+            }
+
+
+
+            #shop{padding: 10px;
+                background-color: green;
+                color: white;
+                border-radius: 12px;
+                
+                position:absolute;
+                top:200px;
+                left: 50px;
+                
+
+            }
+            
+
+            
+            
+            #ton{
+                position: absolute;
+                right: 10px;
+            }
+            
+
+
+             
+          
+
+  .selling {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   gap: 5px; 
+   margin: 5px;
+   } 
+
+h1{
+    font-size: 40px;
+    margin-top: 10px;
+    line-height: 1.8;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    font-size: medium;
+    display: inline;
+
+}
+
+.selling div{ background-color: white;
+    padding: 30px;
+    width: 220px;
+    height: 220px;
+    border: 1px solid lightgreen;
+    border-radius: 12px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+    
+    
+}
+.selling img{  
+  
+    width: 130px;
+height: 95px;}
+   
+   
+ .cart1{
+    background-color: green;
+    padding: 4px;
+    border-radius: 12px;
+    color: white;}
+
+    .cart1 img{
+        width: 20px;
+        height: 20px;
+        float: inline-start;
+    }
+
+ 
+  .text{
+    position: absolute;
+    top: 80px;
+    left: 50px;
+  }
+    
+    
+    
+    
+
+
+
+
+.last{
+    display: flex;
+    justify-content: space-between;
+    
+    padding: 10px;
+    gap: 100px;
+    background-color: black;
+}
+
+.last div{   
+    
+    padding: 20px;
+    width: 300px;
+    border: none;
+    color: white;
+
+}
+             
+       #teah{
+        text-align: center;
+        background-color: green;
+       }     
+
+
+       
+       
+       body{font-family: Arial, Helvetica, sans-serif;
+        background-color: white;
+       }
+
+       .mucyo img{
+        width: 20px;
+        height: 20px;
+       }
+
+       footer{margin-top: 30px;
+
+       }
+
+
+          #toni{
+            position: absolute;
+            left: 1px;
+            bottom: -74px;
+          }
+
+       .view{
+        background-color: green;
+        color: white;
+        float: right;     
+         border-radius: 12px;
+        padding: 5px;
+     }
+       
+            
+         
+        
+    </style>
+</head>
+<header>
+    <img src="LEFT CART.png" id="ton">
+
+    
+    
+    
+    <h2> <img src="lo1.png" alt="logo"> <span style="color: black;">Gadget</span>
+        <span style="color:green;">E-commerce</span></h2> <br><br>
+        
+        <p>Smart Gadget,Smart life </p>
+
+    
+    <nav>
+       <button class="About"> About</button>
+        <a href="#">Home</a>
+        <a href="#">service</a>
+        
+    </nav>
+
+   
+
+</header>
+<body>
+    
+    <section class="banner">
+        <img src="banner1.png" alt="banner">
+        <button id="shop">shop Now &rarr;</button>
+
+        <p class="text"><span style="color: black; font-size: 25px;"><b>Discover the latest</b></span> <br> <span style="color: green; font-size: 50px;"><b>Gardget online! </b></span> <br> <span style="color: gray; font-size: 20px;" >Shop smart, Live better</span></p>
+
+    </section>
+
+<h1>Our selling Products<button class="view">view all products &rarr;</button> </h1>
+    <section class="selling">  
+        
+        <div class="Products">
+            <img src="comp.jpg" alt="computer">
+            <p><span style="color:black; font-weight: bold;">HP Laptop 15.6"</span> <br><span style="color: green; font-weight: bold;"> $750</span>&nbsp;<del>$850</del></p>
+             <button class="cart1"> <img src="lo1.png" > &nbsp;Add to cart</button>
+
+        </div>
+
+        <div class="Products">
+            <img src="iphone.jpg" alt="phone">
+            <p><span style="color:black; font-weight: bold;">Samsung GalaxyA55 </span><br><span style="color: green; font-weight: bold;">$450</span>&nbsp;<del>$500</del></p>
+             <button class="cart1"> <img src="lo1.png">&nbsp;Add to cart</button>
+        </div>
+
+
+         <div class="Products">
+            <img src="airpods 2.jpg" alt="airpro">
+            <p><span style="color:black; font-weight: bold;">airpro </span><br><span style="color: green; font-weight: bold;">$250</span>&nbsp;<del>$300</del></p>
+            <button class="cart1"> <img src="lo1.png">&nbsp;Add to cart</button>
+        </div>
+        
+        
+        <div class="Products">
+            <img src="smartwatch.jpg" alt="watch">
+            <p><span style="color:black; font-weight: bold;">Smartwatch</span> <br><span style="color: green; font-weight: bold;">$120</span>&nbsp;<del>$150</del></p>
+             <button class="cart1"> <img src="lo1.png">&nbsp;Add to cart</button>
+        </div>
+        
+        
+        <div class="Products">
+            <img src="sony_headphones.jpg" alt="headset">
+            <p><span style="color:black; font-weight: bold;">bluetooth headphones</span><br><span style="color: green; font-weight: bold;">$90</span>&nbsp;<del>$120</del>
+            </p>
+             <button class="cart1"> <img src="lo1.png">&nbsp;Add to cart</button>
+        </div>
+    </section>
+
+
+
+<footer>
+    <section class="last">
+    <div class="mucyo">
+        <img src="lo1.png" id="toni">
+        <h3> <span style="color:white">Gadget </span> <span style="color:green"> e-commerce</span></h3>
+        <p>Smart Gadget,Better life</p>
+    </div>
+
+
+
+    <div class="mucyo">
+<h4> quick links</h4>
+<p> home&nbsp; About&nbsp; service&nbsp; login</p>
+    </div>
+    <div class="mucyo"> 
+        <h4>Contact Us</h4>
+        <p><img src="call.png">+2507 88123456<br><img src="MESSAGE.png"> info@gardgetcom.rw</p>
+    </div>
+
+    <div class="mucyo">
+        <h4>Follow us</h4>
+<img src="FACEBOOK.png">
+<img src="TWITTER.png">
+<img src="youtube.png">
+<img src="LINKED IN.png">
+    </div>
+    </section>
+    
+    <div id="teah">
+    <p> &copy;2026 Gargdet E-commerce. All rights reserved </p></div>
+</footer>
+    
+</body>
+
+</html>
